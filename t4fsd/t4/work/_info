@@ -1,0 +1,405 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/anton/p/fsd/t4/Material_de_Apoio_T4
+Ealu
+Z1 w1634159658
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 work 5 pmips 0 22 @F@F[PZ081@JG>;ZURJzR2
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8mipsFSD.vhd
+Z9 FmipsFSD.vhd
+l0
+L78
+V]T>J3]k2Mem_>Q>KlXaOm3
+!s100 <_6IP98m[N^Tfhonnd<>50
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1701409537
+!i10b 1
+Z12 !s108 1701409537.000000
+Z13 !s90 -reportprogress|300|mipsFSD.vhd|
+Z14 !s107 mipsFSD.vhd|
+!i113 1
+Z15 tExplicit 1 CvgOpt 0
+Aalu
+R2
+R3
+R4
+R5
+R6
+R7
+Z16 DEx4 work 3 alu 0 22 ]T>J3]k2Mem_>Q>KlXaOm3
+l88
+L85
+V2Pozd8NB3L^3MC^OYcFFh3
+!s100 lPfeM1FfC=gc2?E[a=n1Y2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Econtrol_unit
+R1
+R4
+R2
+R3
+R6
+R7
+R0
+R8
+R9
+l0
+L234
+V^o1>V>ER=ZTnzl0Z18eKo0
+!s100 hOAjT^e0h[IGmkchkkiJC1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Acontrol_unit
+R4
+R2
+R3
+R6
+R7
+Z17 DEx4 work 12 control_unit 0 22 ^o1>V>ER=ZTnzl0Z18eKo0
+l245
+L241
+V[4=?D>6@@b^oPR:blO?RF0
+!s100 2U2YRCI:F8?2^fgaTX6N90
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Ecpu_tb
+Z18 w1634159692
+R3
+R4
+R2
+R6
+R7
+R0
+Z19 8mipsFSD_tb.vhd
+Z20 FmipsFSD_tb.vhd
+l0
+L75
+Vg8Aae;`@9NaMcY375;1`10
+!s100 YTdd`><MCX:9VIhO1GOLO0
+R10
+32
+Z21 !s110 1701409538
+!i10b 1
+Z22 !s108 1701409538.000000
+Z23 !s90 -reportprogress|300|mipsFSD_tb.vhd|
+Z24 !s107 mipsFSD_tb.vhd|
+!i113 1
+R15
+Acpu_tb
+Z25 DEx4 work 7 ram_mem 0 22 GoZn=G;<Nd3g;4I_IMI[]0
+Z26 DEx4 work 7 mipsfsd 0 22 NTl`36BbFV03QHVIU3Z8C1
+R3
+R4
+R2
+R6
+R7
+DEx4 work 6 cpu_tb 0 22 g8Aae;`@9NaMcY375;1`10
+l89
+L78
+Vo6<jKXRQ_`E<TJMCW5ON71
+!s100 @ViOWM@Fm[ebhRzIYMOmQ0
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R15
+Edatapath
+R1
+R3
+R4
+R2
+R6
+R7
+R0
+R8
+R9
+l0
+L132
+Vk9e4S5]>oMla3PAebmG3e3
+!s100 jK^S5LPRVL9U<RPJTX]eT3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Adatapath
+R5
+R16
+Z27 DEx4 work 8 reg_bank 0 22 =A6fzgfaX[Qz>QOzaPUfR3
+Z28 DEx4 work 7 regnbit 0 22 zS5_1K@FP57RW6h:SJJd_1
+R3
+R4
+R2
+R6
+R7
+Z29 DEx4 work 8 datapath 0 22 k9e4S5]>oMla3PAebmG3e3
+l150
+L147
+V`VK96d:Dc7oV85gdNgCiJ1
+!s100 aIS4S4Y<?XIU`l26BiMfH0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Emipsfsd
+R1
+R4
+R2
+R3
+R6
+R7
+R0
+R8
+R9
+l0
+L344
+VNTl`36BbFV03QHVIU3Z8C1
+!s100 RKQFzLS@N;Zm0LDG5YVCC3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Aa1
+R17
+R29
+R4
+R2
+R3
+R6
+R7
+R26
+l360
+L357
+VH;5[8fo5[@@YC5]DY2EK:2
+!s100 aW`W6a<0XoWiCg0X`3j0b1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Ppmips
+R4
+R2
+R6
+R7
+Z30 w1634159700
+R0
+Z31 8pack_mips_fsd.vhd
+Z32 Fpack_mips_fsd.vhd
+l0
+L10
+V@F@F[PZ081@JG>;ZURJzR2
+!s100 =;SmCH5_RWz0<7O;:;Mi<3
+R10
+32
+b1
+R11
+!i10b 1
+R12
+Z33 !s90 -reportprogress|300|pack_mips_fsd.vhd|
+Z34 !s107 pack_mips_fsd.vhd|
+!i113 1
+R15
+Bbody
+R3
+R4
+R2
+R6
+R7
+l0
+L42
+V9Z2PPcW0_;L==m0AD39jM2
+!s100 mYQoO>an7Y;lm[0HJY43H1
+R10
+32
+R11
+!i10b 1
+R12
+R33
+R34
+!i113 1
+R15
+Eram_mem
+R18
+R4
+R2
+R6
+R7
+R0
+R19
+R20
+l0
+L18
+VGoZn=G;<Nd3g;4I_IMI[]0
+!s100 kT<@?2L76SBI0f>`3DJ2^3
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R15
+Aram_mem
+R4
+R2
+R6
+R7
+R25
+l36
+L27
+VideLZa``d?1anKN6W:3^z3
+!s100 =A@NeLG6LAC^73Q9Yd=ED2
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R15
+Ereg_bank
+R1
+R3
+R4
+R2
+R6
+R7
+R0
+R8
+R9
+l0
+L45
+V=A6fzgfaX[Qz>QOzaPUfR3
+!s100 8^7C:Bj@e3e>RcL[;=fJ@0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Areg_bank
+R28
+R3
+R4
+R2
+R6
+R7
+R27
+l57
+L53
+Vn?[5e_:LPO?VF`Hl>XP^_3
+!s100 [B5]0VH9SIV06zj]fe9:`3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Eregnbit
+R1
+R4
+R2
+R3
+R6
+R7
+R0
+R8
+R9
+l0
+L13
+VzS5_1K@FP57RW6h:SJJd_1
+!s100 O9zHD=QHLPfE_KP1bdY?h2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+Aregn
+R4
+R2
+R3
+R6
+R7
+R28
+l22
+L21
+VioP6SD@UBzJMJ2^2ne6R@1
+!s100 ViPoaP1C]FAb4?T3l^PSk2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
