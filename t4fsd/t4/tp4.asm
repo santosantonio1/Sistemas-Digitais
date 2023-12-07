@@ -22,9 +22,14 @@
 	c : 	.word 0 0 0 0 0 0 0 0
 	d : 	.word 0 0 0 0 0 0 0 0
 
+
+
+
 .text
 	.globl main
-	
+
+
+
 main:
 	
 	xor $t0, $t0, $t0	# int i = 0
@@ -59,6 +64,10 @@ main:
 	j produto_escalar	
 
 
+
+
+
+
 # cria o vetor c ...	
 soma_vet:
 	
@@ -76,8 +85,12 @@ soma_vet:
 	
 	blt $t0, $s1, soma_vet	
 	jr $ra
-	
-	
+
+
+
+
+
+
 # cria o vetor d ...	
 subtrai_vet:
 	
@@ -96,6 +109,11 @@ subtrai_vet:
 	blt $t0, $s1, subtrai_vet
 	jr $ra
 
+
+
+
+
+
 produto_escalar:
 	
 	lw $t1, 0($t3)		# carrega c[i]
@@ -111,7 +129,12 @@ produto_escalar:
 	
 	j d_positivo		# caso d[i] > 0
 
-		
+
+
+
+
+
+
 # subrotina de multiplicação de 2 elementos...		
 mult:
 	
@@ -122,7 +145,11 @@ mult:
 	
 	jr $ra
 	
-	
+
+
+
+
+
 # caso em que d[i] < 0 ...
 d_negativo:
 	
@@ -138,7 +165,12 @@ d_negativo:
 	
 	j avanca
 	
-	
+
+
+
+
+
+
 # caso em que d[i] > 0 ...	
 d_positivo:
 	
@@ -147,6 +179,10 @@ d_positivo:
 	add $s0, $s0, $s3	# c[i] > 0 e d[i] > 0 => soma positiva
 	
 	j avanca
+
+
+
+
 
 
 # avança nos vetores...
@@ -159,17 +195,30 @@ avanca:
 	blt $t0, $s1, produto_escalar
 	
 	j end
-	
+
+
+
+
+
+
 arruma_soma:
 	
 	sub $s0, $s0, $s3	# caso c[i] < 0, a soma deve ser positiva pois d[i] < 0
 
 	j avanca
-	
+
+
+
+
+
 	
 end:	
 	la $s3, pe
 	sw $s0, 0($s3)
+
+
+
+
 
 fim: j fim
 	
