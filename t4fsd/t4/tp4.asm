@@ -213,14 +213,14 @@ arruma_soma:
 
 	
 end:	
-	la $s3, pe
-	sw $s0, 0($s3)
+	la $s3, pe		# carrega o endereço em $s3 para salvar o valor do produto escalar 
+	sw $s0, 0($s3)		# salva o valor do produto escalar na memória
 
 
 
 
 
-fim: j fim
+fim: j fim			# fim do programa
 	
 	
 	
